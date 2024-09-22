@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+    /* Font */
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#navbar {
+    background-color: black;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+}
+#navbar div img{
+    width: 70px;
+    filter: invert(100);
+}
+#navbar div img:hover{
+    transform: scale(1.2);
+}
+#navbar ul {
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 10px 30px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    /* border: 2px solid blue; */
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
+    color: white;
+}
+#navbar li a:hover{
+    
+    font-weight: 700;
+
+}
+
+#introSection {
+    color: white;
+    height: 300px;
+    background-color: red;
+    background: url(/static/bg.jpg) no-repeat center center / cover;
+    background-position: 0px -145px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    flex-direction: column;
+    padding-top: 64px;
+    text-shadow: 2px 2px 5px black;
+
+}
+#introSection div {
+    padding: 5px;
+}
+
+#introSection .small {
+    
+    font-size: 1.5rem;
+    
+}
+
+#sponsorSection {
+    height: 260px;
+    background-color: rgb(77, 77, 77);
+    padding-top: 20px;
+    
+}
+
+#sponsorSection h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+
+    
+}
+#missionSection {
+    height: 300px;
+    background-color: rgb(161, 161, 161);
+    padding-top: 20px;
+    
+}
+#missionSection h3 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    
+}
+#missionSection #container{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#sponsorSection #container1{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.card{
+    width: 20%;
+    height: 200px;
+    /* border: 1px solid blue; */
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px white;
+
+}
+#missionSection #container #card1{
+    background: url("/static/img1.png") no-repeat center center/ cover;
+    /* filter: invert(1); */
+}
+#missionSection #container #card2{
+    background: url("/static/img2.png") no-repeat center center/ cover;
+    /* filter: invert(1); */
+}
+#missionSection #container #card3{
+    background: url("/static/img3.png") no-repeat center center/ cover;
+    /* filter: invert(1); */
+}
+#missionSection #container #card4{
+    background: url("/static/img4.png") no-repeat center center/ cover;
+    /* filter: invert(1); */
+}
+#sponsorSection #container1 img{
+    height: 100px;
+    width: auto;
+    /* filter: invert(1); */
+}
+
+#missionSection #container .card h3{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 83px;
+}
+#sponsorSection #container1 .card h3{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 83px;
+}
+
+#footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}

@@ -1,0 +1,12 @@
+extends base.pug
+
+block scripts 
+    script 
+        include ../static/script.js
+block style 
+    style 
+        include ../static/style.css
+        include ../static/styleContact.css
+block content
+    h3 Thanks #{name}! Your Form Submitted Successfully 
+    h3 We will Get Back to You Soon!

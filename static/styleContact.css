@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    margin: 20px 20px;
+}
+h3{
+    text-align: center;
+    margin: 20px 20px;
+
+}
+form{
+    height: 77.5vh;
+}
+.myInput{
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    height: auto;
+    font-size: 25px;
+    text-align: center;
+    border: 1px solid black;
+    
+}
+.myInput::placeholder{
+    text-align: center;
+    font-size: 25px;
+}
+#btn{
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 50%;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#btn:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}

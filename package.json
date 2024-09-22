@@ -1,0 +1,16 @@
+{
+  "name": "project-3-dance-webiste",
+  "version": "1.0.0",
+  "description": "Making Dance Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Prakash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.6.1",
+    "pug": "^3.0.3"
+  }
+}

@@ -1,0 +1,31 @@
+extends base.pug
+
+block scripts 
+    script 
+        include ../static/script.js
+block style 
+    style 
+        include ../static/style.css
+block content
+    section#introSection 
+        div Welcome to Shubham's Dance Academy
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionSection 
+        h3 Our Mission
+        div#container
+            div#card1.card
+                h3 Perfection
+            div.card#card2
+                h3 Fit Body
+            div.card#card3
+                h3 Fit Mind
+            div.card#card4
+                h3 Flexibility
+    section#sponsorSection 
+        h3 Our Sponsors
+        div#container1
+            img(src="/static/google.png", alt="")
+            img(src="/static/apple.png", alt="")
+            img(src="/static/microsoft.png", alt="")
+            img(src="/static/amazon.png", alt="")
